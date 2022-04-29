@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  box-shadow: 2px 2px #afafaf;
+  padding: 10px 60px;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.navigationlist{
+  list-style: none;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
